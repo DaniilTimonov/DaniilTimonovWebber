@@ -1,0 +1,986 @@
+/* <<<<< there started styles for main page and some general none changing */
+
+ @media (max-width: 1600px) { 
+    html, body{
+        margin: 0;
+        padding: 0;
+        font-family: Arial;
+        min-width: 320px;
+    }
+	
+	/* Diko trollit git */
+ }
+
+
+
+.big_containerforall {
+    width: 1279px;
+    height:1046px;
+    margin: 0 auto;
+
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.upperbox  {
+    display: flex;
+    width: 1279px;
+    height: 157px;
+    background-color: #ffffcc;
+    justify-content: space-between;
+    font-family: Akrobat;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    
+    align-items: center;
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(238, 173, 66, 0.55);
+    -moz-box-shadow:    0px 6px 5px 0px rgba(238, 173, 66, 0.55);
+    box-shadow:         0px 6px 5px 0px rgba(238, 173, 66, 0.55);
+    
+  }
+
+  .logotype  {
+    width: 247px;
+    height: 114px;
+    background-image: url(icon_pack/Daniillogo.png);    
+
+  }
+  .navigationblok {
+      display: flex;
+      width: 628px ;
+      height:158px;
+      align-items: center;
+      justify-content: space-around;
+     
+      
+  }
+
+  /* <<<<<  Middle blocks */
+
+  .container_for_portoliotextmain_and_artofperiodblock {
+      display: flex;
+  }
+
+  .portoliotextmain  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 703px;
+    height: 692px;
+    background-color: #99ff99;
+    align-items: center;
+
+
+
+  }
+  .site_portfolio {
+    font-family: PTSans;
+    font-size: 90px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+
+  }
+
+
+
+
+  .artofperiodblock  {
+    width: 584px;
+    height: 691px;
+    background-color: #ffffff;
+    background-image: url(icon_pack/Art_of_period.png);  
+  }
+  .welcome {
+    font-family: Pacifico;
+    font-size: 72px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+    
+
+  }
+
+  
+
+
+
+
+  /* Middle blocks  >>>>> */
+
+
+/* <<<<< downplace started there */
+
+
+
+.container_social_with_rulers {
+    display: flex;
+    width: 1279px;
+    height: 91px;
+    flex-direction:row-reverse;
+    padding:94px 0 0 0;
+}
+
+
+.downplace { 
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-between;
+        width: 1279px;
+        height: 182px;
+        background-color: #ffffcc;
+        -webkit-box-shadow: 0px 3px 20px 0px rgba(50, 50, 50, 0.75);
+        -moz-box-shadow:    0px 3px 20px 0px rgba(50, 50, 50, 0.75);
+        box-shadow:         0px 3px 20px 0px rgba(50, 50, 50, 0.75);
+      
+
+}
+
+/* .container_for_social {
+        width: 214px;
+        height: 91px;
+} */
+
+
+
+
+
+
+.instagramm {
+        display: flex;
+        background-image: url(icon_pack/insta.png);
+        width: 68px ;
+        height: 68px;
+        padding: 0 50px 0 0;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position:center;
+}
+.vkontakte {
+        display: flex;
+        background-image: url(icon_pack/vko.png);
+        width: 68px ;
+        height: 68px;
+        padding: 0 50px 0 0;
+        background-size:contain;
+        background-repeat: no-repeat;
+        background-position:center;
+}
+/*  downplace ended upper >>>>> */
+
+/* there ended styles for main page >>>>>*/
+
+/*  <<<<< there starts  styles for page works */
+
+/* <<<<< there starts middle container for page cards */
+
+.big_container_of_styles_art {
+    display: flex;
+    width: 1279px;
+    height:684.60px;
+}
+
+.ruler_between_left_and_to_webpage_card {
+    width: 30px;
+    height: 684.60px;
+}
+.webpage_card {
+
+    width: 384px;
+    height: 682px;
+    background-image: url(icon_pack/webpage_card.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    padding: 0 0 0 32px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.computer_graphic_card {
+    width: 384px;
+    height: 682px;
+    background-image: url(icon_pack/Computer_graphic_card.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    padding: 0 37px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+.fine_arts_card {
+    width: 384px;
+    height: 682px;
+    background-image: url(icon_pack/fine_arts_card.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+/* there ends middle container for page cards >>>>> */
+
+
+/* there ends styles of page works >>>>> */
+
+/* <<<<< there starts styles of page webdesign */
+
+.middle_container {
+    display: flex;
+    flex-direction: column;
+    width: 1279px;
+    height: 750px;
+
+}
+
+.middle_cards_box {
+    display: flex;
+    width:1183px;
+    height: 553.39px;
+	
+	   padding:50px 
+}
+
+
+.first_card {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/card_with_web_design_hoztovay.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+
+.second_card {
+    width: 542.7px;
+    height: 538.5px;
+    background-color: white;
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+	   padding:0 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+.describtion_container {
+    display: flex;
+    width: 1279px;
+    height:96px;
+	
+}
+
+
+.first_text_container {
+    
+    width: 505px;
+    height: 96px;
+    font-family: Akrobat;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+	padding-left:100px;
+	
+      
+}
+
+.second_text_container {
+    width: 505px;
+    height: 96px;
+    font-family: Akrobat;
+    font-size: 27px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000000;
+	padding-left:200px;
+   
+}
+
+
+
+
+/* there ends styles of page webdesign >>>>> */
+
+/* <<<<< there starts opened_web_design_page styles */
+
+
+
+.big_middle_center {
+    height: 684px;
+    width: 1279px;
+   
+    
+}
+
+.first_block_with_text_describtion {
+    display: flex;
+    
+    width: 1279px;
+    height:46px;
+  
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+      
+
+
+}
+
+.text_block_of_describtion {
+	padding-left:350px;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.block_with_slider {
+    display: flex;
+    padding-left:120px;
+    width: 1279px;
+    height: 594px;
+   
+
+}
+
+
+.slider_gallery {
+    width: 963px;
+   
+    display: flex;
+   
+    align-items: center;
+}
+
+
+
+/* there ends opened_web_design_page styles >>>>> */
+
+
+
+/* <<<<< there starts computer graphics pages */
+
+.first_card_cg {
+    
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Computer_graphic_content/work01mouse.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+
+
+}
+
+.second_card_cg {
+   
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Computer_graphic_content/work02mouse.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    padding:0 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+
+/* .middle_cards_box {
+width: 1279px;
+height: 689px;
+display: flex;
+padding-top:68px;
+padding-left:80px;
+
+} */
+
+.middle_container_computer_graphic_main {
+    display: flex;
+    width: 1279px;
+    height: 689px;
+    padding:50px 
+}
+
+
+
+
+ /* There ends computer graphic page >>>>> */
+
+
+ /* <<<<< there starts fine arts page */
+
+
+.middle_container_fine {
+	  display: flex;
+    width: 1279px;
+    height: 600px;
+    padding:50px 
+}
+
+.middle_cards_box_fine {
+	 display: flex;
+    width: 1279px;
+    height: 600px;
+    padding:50px 
+	background: red;
+}
+
+.first_card_fine {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Fine_arts_works_page/Firts.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.second_card_fine {
+    width: 542.7px;
+    height: 538.5px;
+    background-image: url(icon_pack/Fine_arts_works_page/Second.png);
+    -webkit-box-shadow: 1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 10px 5px 0px rgba(50, 50, 50, 0.75);
+	   padding:0 50px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+
+}
+
+
+.first_block_with_text_describtion_fine {
+    display: flex;
+    
+    width: 1279px;
+    height:40px;
+  
+        font-family: Akrobat;
+        font-size: 25px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #000000;
+}
+
+
+.ruler_from_slider_to_end {
+    width: 1279px;
+    height: 50px;
+ 
+}
+
+.big_middle_center_fine {
+    height: 800px;
+    width: 1279px;
+	
+   
+    
+}
+
+.slider_gallery_fine {
+    width: 963px;
+    height: 700px;
+   
+    display: flex;
+   
+    align-items: center;
+}
+
+.block_with_slider_fine {
+   display: flex;
+    padding-left:120px;
+    width: 1279px;
+    height: 594px;
+   
+
+}
+
+
+ /* there ends fine arts page >>>>> */
+
+ /* <<<<< there starts styles of news pages */
+
+.biggest_middle_container  {
+    display: flex;
+    flex-direction: column;
+    width: 1279px;
+    height:689px;
+  
+
+}
+.ruler_from_top_to_big_middle_container {
+    width: 1279px;
+    height:27px;
+  
+
+}
+
+.block_for_middles {
+    display: flex;
+    width: 1279px;
+    height: 680px;
+  
+}
+
+.ruler_from_left_side_to_middle_news_container {
+    width: 60px;
+    height: 670px;
+   
+}
+
+.middle_news_container {
+    width: 1176px;
+    height:670px ;
+    background-image: url(icon_pack/under_construction.png);
+}
+
+
+
+
+
+ /* there ends styles of news page >>>>> */
+
+
+
+/*  <<<<< there stars styles of contacts page */
+
+
+
+.big_middle_middle_contacts {
+    padding-top:160px;
+    padding-left: 50px;
+    width: 1235px;
+    height: 600px;
+	
+
+
+}
+
+
+
+.block_for_phone_folder {
+    width: 667.57px;
+    height: 434.91px;
+
+}
+
+.middle_line_of_phone_folder_block {
+    display: flex;
+    width: 667.57px;
+    height: 342px;
+  
+}
+
+
+.phone_image {
+    width: 341px;
+    height: 342px;
+    background-image: url(icon_pack/phone.png);
+}
+.middlebox {
+    display: flex;
+    width: 1279px;
+    height: 342px;
+  
+}
+.icons_container {
+    display:flex;
+    flex-direction:column;
+   
+    justify-content: space-around   ;
+    width: 130px;
+    height: 393px;
+   
+}
+.icon_vkontakte {
+    width: 583px;
+    height: 126px;
+    display: flex;
+}
+.logovk_paste {
+    width:126px;
+    height:126px;
+    background-image: url(icon_pack/vkontakte.png);
+    border-radius: 16px;
+}
+.text_vkontakte_adress {
+       
+        align-items: flex-end;
+        display: flex;
+        font-family: Akrobat;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+      
+}
+
+
+.icon_instagramm {
+    width: 583px;
+    height: 126px;
+    display: flex;
+}
+.logoinst_paste {
+    width:126px;
+    height:126px;
+    background-image: url(icon_pack/instagramm.png);
+    border-radius: 16px;
+}
+
+.text_inst_adress {
+    align-items: flex-end;
+        display: flex;
+        font-family: Akrobat;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+}
+
+.icon_phonecall {
+    width: 583px;
+    height: 126px;
+    display: flex;
+}
+
+.logophone_paste {
+    width:126px;
+    height:126px;
+    background-image: url(icon_pack/phonecall.png);
+    border-radius: 16px;
+
+}
+
+.text_phone_adress {
+    align-items: flex-end;
+        display: flex;
+        font-family: Akrobat;
+        font-size: 60px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        color: #000000;
+}
+
+
+
+/* there ends stlyes of contacts page */
+
+
+/* ========== 320mobile main page ========== */
+.middle320main_container {
+	width:320px;
+	height:343px;
+	background: #fff;
+	display:flex;
+	flex-direction:column;
+    font-size:46.2pt;
+   
+    
+}
+.glav_text {
+    padding-left: 35px;
+}
+.raboti_text {
+    padding-left: 35px;
+}
+.novosti_text {
+    padding-left: 30px;
+}
+.kontakti_text {
+    padding-left: 20px;
+}
+
+.first_mobile_main_glavnaya_block {
+	width:320px;
+	height:86px;
+    background: url(icon_pack/mobileadaptiveness/glavnaya.png);
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.second_mobile_main_glavnaya_block {
+	width:320px;
+	height:86px;
+    background: url(icon_pack/mobileadaptiveness/mainblock2.png);
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+	
+}
+.third_mobile_main_glavnaya_block {
+	width:320px;
+	height:86px;
+    background: url(icon_pack/mobileadaptiveness/mainblock3.png);
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+	
+}
+.fourth_mobile_main_glavnaya_block {
+	width:320px;
+	height:86px;
+    background: url(icon_pack/mobileadaptiveness/mainblock4.png);
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+	
+}
+
+.logo_place {
+
+    width:142px;
+    height:66px;
+    background: url(icon_pack/mobileadaptiveness/Logo.png);
+    background-size: contain;
+}
+.vk320_sticker {
+    width:43px;
+    height:43px;
+    background:url(icon_pack/mobileadaptiveness/vk_sticker.png);
+    background-size: contain;
+   
+}
+.insta320_sticker {
+    width:43px;
+    height:43px;
+    background:url(icon_pack/mobileadaptiveness/insta_sticker.png);
+    background-size: contain;
+}
+
+.container_320 {
+	display:none;
+	width:320px;
+	height:480px;
+	background:#f0ff00;
+}
+
+
+.bannerplace {
+	width:320px;
+	height:73px;
+	background:#ffffcc;
+}
+
+.footer {
+    width:320px;
+    height:64px;
+    background:#ffffcc;
+    
+
+}
+.box_icons {
+    width:300px;
+    height: 43px;
+    display: flex;
+    justify-content: space-between;
+    padding-top:12px;
+    padding-left:10px;
+}
+
+/* ==================================== 320_works_adaptive */
+.works320 {
+    background: red;
+    width: 320px;
+    height: 480px;
+    display: none;
+
+}   
+.icon_home_320works {
+    width: 38px;
+    height:30px;
+    background:url(icon_pack/icon_home_for_320.png);
+}
+
+.bannerworks320px {
+        display: flex;
+        justify-content: center;
+        width:320px;
+        height: 37px;
+        background: #ffffcc;
+
+    }
+.container_middle_works320 {
+    width:320px;
+    height:405px;
+    background: #b2ba99;
+    display:flex;
+	flex-direction:column;
+    font-size:45px;
+    font-family: Akrobat;
+    font-weight: bolder;
+    text-align: center;
+}
+.footer_works320 {
+    width:320px;
+    height: 37px;
+    background: #ffffcc;
+}
+
+.web_design_sticker {
+    width:320px;
+    height:135px;
+    background:#feff24;
+    background:url(icon_pack/mobileadaptiveness/web_deisgn_sticker.png);
+    display:flex;
+    justify-content: center;
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+    
+}
+.web_text {
+    padding-top: 32px;
+}
+.fine_arts_text {
+    padding-top:32px;
+}
+.cg_text {
+    padding-top:13px;
+}
+.finearts_sticker {
+    width:320px;
+    height:135px;
+    background:#feff24;
+    background:url(icon_pack/mobileadaptiveness/finearts_sticker.png);
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+}
+.computer_graphic_sticker {
+    width:320px;
+    height:135px;
+    background:#feff24;
+    background:url(icon_pack/mobileadaptiveness/computer_graphic_sticker.png);
+    -webkit-box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
+}
+
+
+@media (max-width: 320px) {
+	
+	
+	.container_320 {
+	display:block;
+	width:320px;
+	height:480px;
+	background:#f0ff00;
+}
+	
+	
+	
+	.big_containerforall {
+    width: 1279px;
+    height:1046px;
+    margin: 0 auto;
+	display:none;
+}
+}
+
+/* ================================= adaptive320 for works page */
+
+
+@media (max-width: 320px) {
+	
+	
+    .works320 {
+        background: red;
+        width: 320px;
+        height: 480px;
+        display: block;
+    
+    }   
+	
+	
+	
+	.big_containerforall {
+    width: 1279px;
+    height:1046px;
+    margin: 0 auto;
+	display:none;
+}
+}
+
+
+
+
+@media (max-width: 1640px) { 
+ .upperbox {
+	width:1600px;
+ }
+.downplace {
+	width:1600px;
+}
+
+.big_containerforall {
+    width: 1600px;
+    height:1046px;
+    margin: 0 auto;
+
+}
+
+
+}
+
+
