@@ -1,0 +1,135 @@
+
+  
+  .slider_web_design_opened320 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 240px;
+    height: 210px;
+    margin: 50px auto;
+    box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.75);
+    
+  }
+  
+  .slider_web_design_opened320 input[name="switch_320_web_design"] {
+    display: none;
+  }
+  
+  .switch_webdesign {
+    position: absolute;
+    left: 0;
+    bottom: -40px;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .switch_webdesign label {
+   
+    display: inline-flex;
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    margin: 0 3px;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .8);
+    border-radius: 50%;
+    border: 5px solid #2f363c;
+    background-color: #738290;
+  }
+  
+  #btn1_webdesign:checked~.switch_webdesign label[for="btn1_webdesign"] {
+    background-color: white;
+  }
+  
+  #btn2_webdesign:checked~.switch_webdesign label[for="btn2_webdesign"] {
+    background-color: white;
+  }
+  
+  #btn3_webdesign:checked~.switch_webdesign label[for="btn3_webdesign"] {
+    background-color: white;
+  }
+  #btn4_webdesign:checked~.switch_webdesign label[for="btn4_webdesign"] {
+    background-color: white;
+  }
+  #btn5_webdesign:checked~.switch_webdesign label[for="btn5_webdesign"] {
+    background-color: white;
+  }
+  #btn6_webdesign:checked~.switch_webdesign label[for="btn6_webdesign"] {
+    background-color: white;
+  }
+  #btn7_webdesign:checked~.switch_webdesign label[for="btn7_webdesign"] {
+    background-color: white;
+  }
+  #btn8_webdesign:checked~.switch_webdesign label[for="btn8_webdesign"] {
+    background-color: white;
+  }
+  #btn9_webdesign:checked~.switch_webdesign label[for="btn9_webdesign"] {
+    background-color: white;
+  }
+  #btn10_webdesign:checked~.switch_webdesign label[for="btn10_webdesign"] {
+    background-color: white;
+  }
+
+  .slider-inner_web_design {
+    overflow: hidden;
+  }
+  
+  .slides_web_design {
+    width: 1800%;
+    transition: all 0.5s;
+  }
+  
+  .slides_web_design img {
+    width: 240px;
+    height: 210px;
+    float: left;
+  }
+
+  .empty {
+    width: 240px;
+    height: 210px;
+    float: left;
+    background-color: white;
+  }
+
+  .empty2 {
+    width: 240px;
+    height: 210px;
+    float: left;
+    background-color: white;
+  }
+  
+  #btn1_webdesign:checked~slider-inner slides {
+    transform: translate(0);
+  }
+  
+  #btn2_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-480px);
+  }
+  
+  #btn3_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-1200px);
+  }
+
+  #btn4_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-1440px);
+  }
+  #btn5_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-1920px);
+  }
+  #btn6_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-2160px);
+  }
+  #btn7_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-2400px);
+  }
+  #btn8_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-2640px);
+  }
+  #btn9_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-2880px);
+  }
+  #btn10_webdesign:checked~.slider-inner_web_design .slides_web_design {
+    transform: translate(-3120px);
+  }
+
+

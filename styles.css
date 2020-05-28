@@ -8,7 +8,7 @@
         min-width: 320px;
     }
 	
-	/* Diko trollit git */
+	
  }
 
 
@@ -918,7 +918,76 @@ box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
 }
 
 
-@media (max-width: 320px) {
+/* ================================================== 320 mobile web-design page adaptive */
+.web-design320 {
+   
+    width: 320px;
+    height: 480px;
+    display: none;
+}
+
+.container_middle_web-design320 {
+    width:320px;
+    height:405px;
+    background: #fff;
+    display:flex;
+	flex-direction:column;
+    font-size:45px;
+    font-family: Akrobat;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.example_01 {
+    width: 296px;
+    height: 204px;
+    background: url(icon_pack/mobileadaptiveness/website_show_sticker.png);
+   
+    background-size: contain;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.98);
+-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.98);
+box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.98);
+}
+.blockexample01 {
+    padding-top: 10px;
+    padding-left: 11.5px;
+
+}
+.text_describtion {
+    padding-top: 10px;
+    font-size: 16px;
+    font-family: Akrobat;
+}
+
+/* ================================= 320 web-design opened page styles ===================== */
+
+
+.web-design320 {
+    width: 320px;
+    height: 480px;
+    display: block;
+
+}
+
+.container_middle_web_design_opened_320 {
+    width:320px;
+    height:405px;
+    background: #fff;
+
+}
+
+
+
+
+
+
+
+
+
+/* =============================== media adaptive field =========================== */
+
+
+@media (max-width: 575.98px) {
 	
 	
 	.container_320 {
@@ -937,11 +1006,29 @@ box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
 	display:none;
 }
 }
+@media (max-width: 1640px) { 
+ .upperbox {
+	width:1600px;
+ }
+.downplace {
+	width:1600px;
+}
+
+.big_containerforall {
+    width: 1600px;
+    height:1046px;
+    margin: 0 auto;
+
+}
+
+
+}
 
 /* ================================= adaptive320 for works page */
 
 
-@media (max-width: 320px) {
+
+@media (max-width: 575.98px) {
 	
 	
     .works320 {
@@ -983,4 +1070,43 @@ box-shadow:         0px 8px 5px 0px rgba(50, 50, 50, 0.5);
 
 }
 
+/* ================================= adaptiveness 320 for web design page ======= */
+
+@media (max-width: 575.98px) {
+	
+	
+.web-design320 {
+   
+    width: 320px;
+    height: 480px;
+    display: block;
+}
+
+	
+	
+	.big_containerforall {
+    width: 1279px;
+    height:1046px;
+    margin: 0 auto;
+	display:none;
+}
+}
+
+@media (max-width: 1640px) { 
+    .upperbox {
+       width:1600px;
+    }
+   .downplace {
+       width:1600px;
+   }
+   
+   .big_containerforall {
+       width: 1600px;
+       height:1046px;
+       margin: 0 auto;
+   
+   }
+   
+   
+   }
 
